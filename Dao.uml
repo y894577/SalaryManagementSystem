@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Dao</OriginalElement>
+  <nodes>
+    <node x="0.0" y="864.0">Dao.LoginDao</node>
+    <node x="263.0" y="0.0">Dao.UserDao</node>
+    <node x="304.88541666666674" y="300.0">Dao.DbConnector</node>
+    <node x="655.0" y="842.0">Dao.ParaDao</node>
+    <node x="420.0" y="853.0">Dao.PaymentDao</node>
+    <node x="274.88541666666674" y="598.0">Dao.BaseDao</node>
+    <node x="221.00000000000003" y="832.0">Dao.DataDao</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.688659793814433" x="463.5" y="475.0" />
+  <SelectedNodes>
+    <node>Dao.LoginDao</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

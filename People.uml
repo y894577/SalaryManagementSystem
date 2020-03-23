@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>People</OriginalElement>
+  <nodes>
+    <node x="224.0" y="828.0">People.Parameters</node>
+    <node x="123.75000000000001" y="0.0">People.User</node>
+    <node x="0.0" y="894.0">People.Payment</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.4677871148459384" x="203.0" y="704.0" />
+  <SelectedNodes>
+    <node>People.Parameters</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
