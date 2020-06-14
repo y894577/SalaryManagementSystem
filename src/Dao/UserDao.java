@@ -81,6 +81,7 @@ public class UserDao {
         String sql = "update user set "+ sqllist+" where userID = ?";
         int updateCount = 0;
         updateCount = BaseDao.update(sql,list);
+
         return updateCount;
     }
 

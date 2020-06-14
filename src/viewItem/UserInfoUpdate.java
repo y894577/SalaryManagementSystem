@@ -59,6 +59,7 @@ public class UserInfoUpdate extends JPanel {
 
     private void createuserActionPerformed(ActionEvent e) {
         // TODO add your code here
+
     }
 
     private void imageActionPerformed() throws IOException {
@@ -164,7 +165,13 @@ public class UserInfoUpdate extends JPanel {
 
         //---- update ----
         update.setText("\u66f4\u65b0\u7528\u6237\u4fe1\u606f");
-        update.addActionListener(e -> createuserActionPerformed(e));
+        update.addActionListener(e -> {
+            try {
+                updateActionPerformed(e);
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        });
 
         //---- image ----
         image.setText("\u66f4\u65b0\u7528\u6237\u5934\u50cf");
@@ -278,6 +285,8 @@ public class UserInfoUpdate extends JPanel {
             }
         }
     }
+
+
 
 
 

@@ -44,7 +44,7 @@ public class Calculate {
     private float titleParameter = 0;
 
 
-    public Calculate(User user,Parameters parameters) throws SQLException {
+    public Calculate(User user, Parameters parameters) throws SQLException {
         init(user);
         payment = new Payment();
         initPaymentClass(parameters);

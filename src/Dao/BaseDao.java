@@ -48,6 +48,7 @@ public class BaseDao {
         updateCount = pstm.executeUpdate();
         pstm.close();
         con.close();
+        System.out.println("update success");
         return updateCount;
     }
 
