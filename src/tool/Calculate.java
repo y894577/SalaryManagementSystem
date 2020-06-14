@@ -36,13 +36,14 @@ public class Calculate {
     private String isManager;
     private String isTeaching;
 
-    public Payment getPayment() {
-        return payment;
-    }
+
 
     private Payment payment;
     private float titleParameter = 0;
 
+    public Payment getPayment() {
+        return payment;
+    }
 
     public Calculate(User user, Parameters parameters) throws SQLException {
         init(user);
